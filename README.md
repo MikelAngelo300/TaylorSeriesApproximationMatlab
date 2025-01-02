@@ -9,30 +9,11 @@ This MATLAB project implements Taylor series expansions to approximate functions
 - Visualization of approximation accuracy over different iterations.
 - Modular code with separate functions for each approximation type.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/TaylorSeriesApproximation.git
-   ```
-2. Ensure MATLAB is installed on your system.
-3. No additional dependencies are required.
-
 ## Usage
 
 1. Open the project folder in MATLAB.
-2. Run the main script `main.m` to perform the Taylor series approximation for different functions and visualize the results.
+2. Run the main script `test_for exponent.m` or `test_for cosine.m` to perform the Taylor series approximation for different functions and visualize the results.
 3. You can modify the parameters (e.g., `x0`, `a`, `N`) to explore different approximations.
-
-Example:
-```matlab
-x = 9;            % Point to approximate
-x0 = 3;           % Expansion center
-N = 10;           % Number of iterations
-a = 3;            % Parameter for the function
-
-result = taylor_projekt(x, x0, N, a);
-```
 
 ## Results
 
